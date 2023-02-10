@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online learning is a mode of education that takes place over the internet. It is also referred to as e-learning or distance learning. Online learning provides students with the opportunity to pursue their education from the comfort of their own homes or from any location with an internet connection. In online learning, students can access course materials, lectures, assessments, and interact with their instructors and classmates through various digital means such as email, discussion boards, video conferencing, and virtual classrooms. ">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
@@ -34,7 +35,8 @@
     <title>E-online</title>
     
 </head>
-<!-- tes -->
+<!-- tes perubahan git -->
+<!-- tes penambahan komentar git -->
 <body class="font-Poppins">
     <header class="">
         <nav class="flex justify-between items-center w-[84%] mx-auto">
@@ -61,7 +63,7 @@
                 </ul>
             </div>
             <div class="flex items-center gap-6">
-                <button class="bg-primary text-white px-4 py-2 rounded-lg lg:py-3.5 text-xs lg:text-base lg:px-10  lg:rounded-xl hover:bg-darkprimary">Get Started</button>
+                <button aria-label="started class" class="bg-primary text-white px-4 py-2 rounded-lg lg:py-3.5 text-xs lg:text-base lg:px-10  lg:rounded-xl hover:bg-darkprimary">Get Started</button>
                 <ion-icon onclick="onToggleMenu(this)" name="menu" class="stroke-primary text-3xl cursor-pointer lg:hidden"></ion-icon>
             </div>
         </nav>
@@ -73,7 +75,7 @@
     </div>
     <div class="w-[90%]  lg:flex lg:justify-between lg:items-center lg:w-[50%] mx-auto mt-12 lg:mt-24 ">
         <div class="">
-        <button class=" flex text-md lg:text-lg text-white bg-primary hover:bg-darkprimary py-3 px-4 rounded-lg w-[100%] lg:px-8 lg:py-4 lg:rounded-xl">Category <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:mt-1 float-right ml-auto mr-0 lg:ml-4">
+        <button aria-label="Category" class=" flex text-md lg:text-lg text-white bg-primary hover:bg-darkprimary py-3 px-4 rounded-lg w-[100%] lg:px-8 lg:py-4 lg:rounded-xl">Category <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 lg:mt-1 float-right ml-auto mr-0 lg:ml-4">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
           </button>
@@ -81,7 +83,7 @@
     <div class="flex lg:justify-between text-md lg:gap-8 lg:text-lg  lg:mt-0 mt-5 lg:ml-8  w-[100%] items-center ">
 
         <input class="rounded-l-lg text-md lg:text-lg py-3 px-4 lg:w-96 lg:px-4 lg:py-4 w-[100%]   lg:rounded-xl border-2 border-primary outline-2 outline-darkprimary" placeholder="What do you want to learn?" type="text">
-        <button class="rounded-r-lg text-md lg:text-lg text-white bg-primary hover:bg-darkprimary  border-2 border-primary hover:border-darkprimary float-right ml-auto mr-0 py-3 px-4 lg:px-8 lg:py-4 lg:rounded-xl">Search</button>
+        <button aria-label="Search" class="rounded-r-lg text-md lg:text-lg text-white bg-primary hover:bg-darkprimary  border-2 border-primary hover:border-darkprimary float-right ml-auto mr-0 py-3 px-4 lg:px-8 lg:py-4 lg:rounded-xl">Search</button>
 
 </div>
     </div>
@@ -293,8 +295,8 @@
                     <h1 class="font-bold text-2xl lg:text-4xl text-gray-600">Our instructors</h1>
                 </div>
                 <div class="flex gap-[1vw]">
-                    <button class="hidden lg:block  lg:px-8 lg:py-2 lg:rounded-xl"><i data-feather="arrow-left" class=" lg:w-8 lg:h-8  lg:stroke-primary"></i></button>
-                    <button class="hidden lg:block lg:bg-lightprimary lg:px-8 lg:py-2 lg:rounded-xl"><i data-feather="arrow-right" class=" lg:w-8 lg:h-8  lg:stroke-primary"></i></button>
+                    <button aria-label="right" class="hidden lg:block  lg:px-8 lg:py-2 lg:rounded-xl"><i data-feather="arrow-left" class=" lg:w-8 lg:h-8  lg:stroke-primary"></i></button>
+                    <button aria-label="left" class="hidden lg:block lg:bg-lightprimary lg:px-8 lg:py-2 lg:rounded-xl"><i data-feather="arrow-right" class=" lg:w-8 lg:h-8  lg:stroke-primary"></i></button>
                 </div>
             </div>
             <div class="flex gap-[4vw] mt-7 lg:mt-14 overflow-x-auto overflow-hidden">
@@ -388,7 +390,7 @@
                         <h1 class="font-bold text-lg lg:text-4xl text-gray-600">Read Our Blogs</h1>
                     </div>
                     <div class="">
-                        <button class="bg-primary hover:bg-darkprimary text-sm px-4 py-2 lg:px-12 lg:py-4 rounded-xl font-medium lg:font-semibold text-white">VIEW ALL</button>
+                        <button aria-label="view all blogs" class="bg-primary hover:bg-darkprimary text-sm px-4 py-2 lg:px-12 lg:py-4 rounded-xl font-medium lg:font-semibold text-white">VIEW ALL</button>
                     </div>
                 </div>
                 <div class="gap-[4vw] mt-14  grid lg:inline-grid lg:grid-cols-3 md:grid-cols-2">     
@@ -461,13 +463,13 @@
             <div class="mx-auto w-[84%]">
         <div class="grid lg:inline-grid lg:grid-cols-5 grid-cols-2  w-[100%] pt-8 lg:pt-16">  
             <div class=" px-4 col-span-2 mb-8 lg:col-span-1 ">
-                <a href="#"><img src="img/logo.png" class="h-12" alt=""></a>
+               <img src="img/logo.png" class="h-12" alt="">
                 <ul>
                     <li class="block my-6  ">
-                        <a class="text-gray-500 font-semibold text-base md:text-lg" href="">Privacy Policy</a>
+                        <a class="text-gray-500 font-semibold text-base md:text-lg" href="#">Privacy Policy</a>
                     </li>
                     <li class="block my-6  ">
-                        <a class="text-gray-400 text-sm md:text-base " href="">Copyright@Milton 2020, All right Reserved </a>
+                        <a class="text-gray-400 text-sm md:text-base " href="#">Copyright@Milton 2020, All right Reserved </a>
                     </li>
                 </ul>
             </div>
@@ -475,16 +477,16 @@
                 <h2 class="font-bold text-base md:text-2xl mt-2 md:h-9  ">Home</h2>
                 <ul>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Home</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Home</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">About Us</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">About Us</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Our Process </a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Our Process </a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Services</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Services</a>
                     </li>
                 </ul>
             </div>
@@ -492,16 +494,16 @@
                 <h2 class="font-bold text-base md:text-2xl mt-2 md:h-9  ">Latest Courses</h2>
                 <ul>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">General Science</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">General Science</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Web Development</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Web Development</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Civil Engineering</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Civil Engineering</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Business Studies</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Business Studies</a>
                     </li>
                 </ul>
             </div>
@@ -509,16 +511,16 @@
                 <h2 class="font-bold text-base md:text-2xl mt-2 md:h-9  ">Community</h2>
                 <ul>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Go Premium</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Go Premium</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Team Plans</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Team Plans</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Refer a Friend</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Refer a Friend</a>
                     </li>
                     <li class="block my-7  ">
-                        <a class="text-gray-500 font-medium text-sm md:text-base " href="">Gift Cards</a>
+                        <a class="text-gray-500 font-medium text-sm md:text-base " href="#">Gift Cards</a>
                     </li>
                 </ul>
             </div>
@@ -526,14 +528,14 @@
                 <h2 class="font-bold text-base md:text-2xl mt-2 md:h-9  ">Stay Connected</h2>
                 <ul>
                     <li class="block my-7 ">
-                        <a class="text-gray-500 font-medium flex " href=""><i data-feather="twitter" class="w-5 "></i>
+                        <a class="text-gray-500 font-medium flex " href="#"><i data-feather="twitter" class="w-5 "></i>
                             <p class="text-gray-600 ml-3">Twitter</p></a>
                     </li>
                     <li class="block my-7 ">
-                        <a class="text-gray-500 font-medium flex " href=""><i data-feather="instagram" class="w-5 "></i>
+                        <a class="text-gray-500 font-medium flex " href="#"><i data-feather="instagram" class="w-5 "></i>
                             <p class="text-gray-600 ml-3">Instagram</p></a>
                     </li>                   <li class="block my-7 ">
-                        <a class="text-gray-500 font-medium flex " href=""><i data-feather="youtube" class="w-5 "></i>
+                        <a class="text-gray-500 font-medium flex " href="#"><i data-feather="youtube" class="w-5 "></i>
                             <p class="text-gray-600 ml-3">Youtube</p></a>
                     </li>
                 </ul>
